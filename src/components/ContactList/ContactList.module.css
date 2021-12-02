@@ -1,0 +1,48 @@
+.svgBtnDelete {
+  width: 20px;
+  height: 20px;
+}
+
+.btnDelete {
+  border: none;
+  background-color: transparent;
+  margin: 0;
+}
+
+.btnDelete:focus,
+.btnDelete:hover {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.contactItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 30px;
+  background-color: rgba(236, 239, 240, 0.408);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.contactItem:hover,
+.contactItem:focus {
+  box-shadow: rgb(229 172 132) -3px 7px 4px 0px, rgb(235 79 17) -2px 7px 7px 3px,
+    rgb(255 27 0) 0px -3px 0px inset;
+}
+
+.nameForm {
+  position: absolute;
+  font-size: 20px;
+}
+
+.numberForm {
+  position: relative;
+  left: 230px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.contactList {
+  padding: 0;
+}
